@@ -1,0 +1,23 @@
+# Procesamiento de imágenes y video
+opencv-python>=4.8.0          # OpenCV para procesamiento de imágenes, video y algoritmos de visión por computador
+pillow>=9.0.0                 # PIL/Pillow para manipulación de imágenes (requerido por ultralytics)
+
+# Operaciones numéricas y arrays
+numpy>=1.24.0                 # NumPy para operaciones numéricas y arrays multidimensionales
+
+# Visualización y gráficas
+matplotlib>=3.7.0             # Matplotlib para visualización de datos y gráficas
+
+# Deep Learning - YOLO v8
+ultralytics>=8.0.0            # Ultralytics YOLO v8 para detección de objetos en tiempo real
+torch>=2.0.0                  # PyTorch (requerido por ultralytics)
+torchvision>=0.15.0           # Torchvision (requerido por ultralytics)
+
+# Dependencias adicionales de ultralytics
+pyyaml>=5.3.1                 # YAML parser (para archivos de configuración YOLO)
+requests>=2.23.0              # HTTP library (para descargar modelos YOLO)
+scipy>=1.4.1                  # Scientific computing (requerido por ultralytics)
+
+# Jupyter Notebook (opcional pero recomendado para usar el notebook)
+jupyter>=1.0.0                # Jupyter Notebook para análisis interactivo
+ipykernel>=6.0.0              # Kernel de Python para Jupyter
